@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#05070b">
+  <title>Portfolio — Atom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <main class="stage">
+    <div class="axis"></div>
+    <div id="orbits"></div>
+    <div class="core" id="core"><img id="coreImg" alt=""></div>
+  </main>
+
+  <header class="top">
+    <h1 id="title">Mening saytlarim</h1>
+    <div class="tools">
+      <button id="bAudio" title="Ovoz">🔊</button>
+      <button id="bAdmin" title="Boshqaruv">⚙</button>
+    </div>
+  </header>
+
+  <nav class="chips" id="chips"></nav>
+
+  <section class="panel" id="panel"><button class="close" data-close="panel">×</button><div id="info"></div></section>
+
+  <section class="win" id="adminWin">
+    <button class="close" data-close="adminWin">×</button>
+    <h2>Boshqaruv paneli</h2>
+    <div id="adminBody"></div>
+  </section>
+
+  <div class="auth" id="auth"><div class="box" id="authBox"></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
